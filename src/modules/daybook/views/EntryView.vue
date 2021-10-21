@@ -20,7 +20,7 @@
  <div class="d-flex flex-colum px-3 h-75">
     <textarea placeholder="¿Qué sucedio hoy?"></textarea>
  </div>
- <Fab></Fab>
+ <Fab icon="fa-save" ></Fab>
 
  <img src="https://concepto.de/wp-content/uploads/2015/03/paisaje-2-e1549600987975.jpg" 
  alt="entry-picture"
@@ -51,6 +51,6 @@ export default {
         bottom: 150px;
         right: 20px;
         box-shadow: 0px 5px 10px rgba($color:#000, $alpha: 0.2);
-        
+
    }
 </style>
