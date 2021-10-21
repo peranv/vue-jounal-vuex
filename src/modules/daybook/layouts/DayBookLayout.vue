@@ -6,10 +6,11 @@
        <div class="col-4">
            <EntryList></EntryList>
            </div>
+            <div class="col">
+                  <router-view></router-view>
+             </div>
    </div>
-   <div class="col">
-       <router-view></router-view>
-   </div>
+  
 </template>
 
 <script>
